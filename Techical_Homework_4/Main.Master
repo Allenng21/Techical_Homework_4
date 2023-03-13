@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title>PetMeds</title>
+    <title>Pet Med</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -13,10 +13,10 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container justify-content-center">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="Default.aspx">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.aspx">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="Services.aspx">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contact.aspx">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -24,7 +24,7 @@
     <form id="form1" runat="server">
         <div>
             <header class="text-center">
-                <h1>PetMeds</h1>
+                <h1>Pet Med</h1>
             </header>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
