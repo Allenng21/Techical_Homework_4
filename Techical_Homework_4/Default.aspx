@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <header class="text-center">
-        <h4>Welcome to Pet Med!</h4>
+        <h3>Welcome to Pet Med!</h3>
     </header>
     <div class="container mt-5">
         <div class="row align-items-center">
